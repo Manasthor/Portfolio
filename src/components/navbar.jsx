@@ -7,7 +7,7 @@ function Navbar() {
       <div>
         <a href="#about" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none' }}>About</a>
         <a href="#skills" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none' }}>Skills</a>
-        <a href="#project" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none' }}>Projects</a>
+        <a href="#projects" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none' }}>Projects</a>
         <a href="#education" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none' }}>Education</a>
         <a href="#contact" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none' }}>Contact</a>
       </div>
