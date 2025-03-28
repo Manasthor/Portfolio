@@ -14,11 +14,12 @@ function Skills() {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',  // Ensures 2x2 layout
+        gridTemplateColumns: 'repeat(2, 1fr)',  // Default to 2x2
         gap: '20px',
         justifyContent: 'center',
-        alignItems: 'center'
-      }}>
+        alignItems: 'center',
+      }}
+      >
         {skillsData.map((item, index) => (
           <div key={index} style={{
             background: '#f4f4f4',
@@ -40,6 +41,18 @@ function Skills() {
           </div>
         ))}
       </div>
+
+      <style>
+        {`
+          @media (max-width: 600px) {
+            #skills div {
+              display: grid;
+              grid-template-columns: 1fr;
+              gap: 10px;
+            }
+          }
+        `}
+      </style>
     </section>
   );
 }
